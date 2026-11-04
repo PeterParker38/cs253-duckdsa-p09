@@ -1,0 +1,13 @@
+strategy,target_ops,inserted,cancelled,live,physical_size,purges,bloat_ratio,time_ms
+adversarial_purge_prevention,5000,10000,5000,5000,10000,0,2,1.7258
+benign_random,5000,5001,0,2,2,2521,1,0.4553
+adversarial_purge_prevention,10000,20000,10000,10000,20000,0,2,3.2035
+benign_random,10000,10009,4,18,22,5188,1.22222,0.9902
+adversarial_purge_prevention,25000,50000,25000,25000,50000,0,2,6.7502
+benign_random,25000,25001,0,2,2,12436,1,2.4191
+adversarial_purge_prevention,50000,100000,50000,50000,100000,0,2,14.5416
+benign_random,50000,50001,0,2,2,25379,1,4.4012
+adversarial_purge_prevention,100000,200000,100000,100000,200000,0,2,33.755
+benign_random,100000,100000,0,0,0,51335,1,8.5041
+adversarial_purge_prevention,250000,500000,250000,250000,500000,0,2,83.926
+benign_random,250000,250001,0,2,2,127757,1,22.485
